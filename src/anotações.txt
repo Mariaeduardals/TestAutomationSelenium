@@ -1,0 +1,30 @@
+Passo a passo para criação de testes automatizados.
+1º Estruturar o PageObject de login.
+    1.1 Criar um arquivo chamado LoginPO. java dentro da pasta page. OK
+    1.2- Fazer herença do arquivo BasePO. java OK
+    1.3 • Fazer o mapeamento de todos os elementos da tela de login. OK
+    1.3.1 Criar os elementos com pageFactory.OK
+
+2° • Estruturar o arquivo de teste de login.
+    2.1 Criar um arquivo chamado LoginTest. java dentro da pasta teste OK
+    2.2- Fazer a herança do arquivo BaseTest. java OK
+    2.3 Criar um metodo inicial que saiba instanciar uma PO de login. OK
+    2.4 Criar-os testes baseados na Planilha
+        -2.4.1- Não deve logar no sistema com usuário e senha vazio
+        
+
+Mais validações a tentar fazer, casos para a tela de cadastro de produtos:
+- fazer no caso 3 todas as possibilidades de vazio em todos os campos OK
+- Fazer o caso de sucesso OK
+- Fazer os da planilha sugerido no curso
+    Deve manter na mesma página ao clicar na logo de Controle de produtos OK
+    Deve voltar para tela de login ao clicar na opção de voltar que esta na barra de título. OK
+    Deve trazer na tabela os últimos produtos cadastrados OK
+    Deve ter os títulos da tabela padronizados em português, todos iniciando com letras malúsculas.
+    Deve abrir uma tela de cadastro ao clicar no botão criar uma única vez. // Só funciona clicando com duas
+    Deve fechar a tela de cadastro de produto ao clicar no icone de X - fechar OK
+    Deve fechar a tela de cadastro de produto ao clicar no botão sair OK
+    Deve mostrar uma mensagem informando que os campos são obrigatórios ao clicar era salvar sem preencher os campos com as informaçõe OK
+    Deve fechar mensagem ao clicar no icone de X guando a mensagem esta sendo exibida. OK, mas não fecha
+- Caso lá não tenha, fazer testando as opções de editar e excluir da tela, não fucniona essas funcoes
+Anotar algumas informações do ultimo video do curso sobre coo buscar os elesmentos usando o inspesisonar, utilizando oquery selector
